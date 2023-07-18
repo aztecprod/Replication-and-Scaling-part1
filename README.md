@@ -16,11 +16,11 @@ Slave — это вспомогательный сервер БД, которы�
 
 ![image](https://github.com/aztecprod/Replication-and-Scaling-part1/assets/25949605/39a6fe73-6793-474f-9f4e-b131a9223c01)
 
-"""
+```
 CHANGE MASTER TO MASTER_HOST = '192.168.0.108', MASTER_USER = 'replication', MASTER_PASSWORD = 'password', MASTER_LOG_FILE = 'debian2-bin.000001', MASTER_LOG_POS = 1567;
 Start Slave;
 Show slave status\g ;
-"""
+```
 
 ![image](https://github.com/aztecprod/Replication-and-Scaling-part1/assets/25949605/2534bf03-f08e-4bed-a2bc-1c1038151cf9)
 
